@@ -6,17 +6,28 @@ package com.amaker.entity;
  */
 public class car {
 
-    private Integer cid ;/** 车辆id */
-    private String cnumber ;/** 车牌号 */
-    private String cbrand ;/** 车辆品牌 */
-    private String ccolor ;/** 车辆颜色 */
-    private String cphoto ;/** 车辆图片 */
-    private Integer cseats ;/** 车辆座位数 */
-    private Double cprice ;/** 车辆租赁价格 */
-    private Integer cmodel ;/** 车型;“0”为小轿车，“1”为SUV，“2”为越野车，“3”为跑车，“4”为货车，“5”为客车 */
-    private Integer cgear ;/** 车辆挡位类型;“0”为手动挡，“1”为自动挡 */
-    private Integer ctype ;/** 车辆类型;“0”为经济型，“1”为舒适性，“2”为性能型 */
-    private Integer cstate ;/** 车辆状态;“0”为空闲中，“1”为租赁中，“2”为维修中，“3”为已报废 */
+    /** 车辆id */
+    private Integer cid ;
+    /** 车牌号 */
+    private String cnumber ;
+    /** 车辆品牌 */
+    private String cbrand ;
+    /** 车辆颜色 */
+    private String ccolor ;
+    /** 车辆图片 */
+    private String cphoto ;
+    /** 车辆座位数 */
+    private Integer cseats ;
+    /** 车辆租赁价格 */
+    private Double cprice ;
+    /** 车型;“0”为小轿车，“1”为SUV，“2”为越野车，“3”为跑车，“4”为货车，“5”为客车 */
+    private Integer cmodel ;
+    /** 车辆挡位类型;“0”为手动挡，“1”为自动挡 */
+    private Integer cgear ;
+    /** 车辆类型;“0”为经济型，“1”为舒适性，“2”为性能型 */
+    private Integer ctype ;
+    /** 车辆状态;“0”为空闲中，“1”为租赁中，“2”为维修中，“3”为已报废 */
+    private Integer cstate ;
 
     public car() {
     }

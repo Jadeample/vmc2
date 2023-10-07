@@ -6,9 +6,12 @@ package com.amaker.entity;
  */
 public class admin {
 
-    private Integer aid ;/** 管理员id */
-    private String aname ;/** 管理员名 */
-    private String apwd ;/** 管理员密码 */
+    /** 管理员id */
+    private Integer aid ;
+    /** 管理员名 */
+    private String aname ;
+    /** 管理员密码 */
+    private String apwd ;
 
     public admin() {
     }

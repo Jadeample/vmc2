@@ -6,14 +6,22 @@ package com.amaker.entity;
  */
 public class user {
 
-    private Integer userid ;/** 用户id */
-    private String uname ;/** 用户名 */
-    private String upwd ;/** 用户密码 */
-    private Integer usex ;/** 用户性别;“0”为男，“1”为女 */
-    private String urealname ;/** 用户真实姓名 */
-    private String uidcard ;/** 用户身份证号 */
-    private String uphone ;/** 用户电话 */
-    private String uemail ;/** 用户邮箱 */
+    /** 用户id */
+    private Integer userid ;
+    /** 用户名 */
+    private String uname ;
+    /** 用户密码 */
+    private String upwd ;
+    /** 用户性别;“0”为男，“1”为女 */
+    private Integer usex ;
+    /** 用户真实姓名 */
+    private String urealname ;
+    /** 用户身份证号 */
+    private String uidcard ;
+    /** 用户电话 */
+    private String uphone ;
+    /** 用户邮箱 */
+    private String uemail ;
 
     public user() {
     }
