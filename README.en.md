@@ -1,7 +1,11 @@
 # VMC
 
 #### Description
+<<<<<<< HEAD
 车管中心运营平台系统
+=======
+汽车租赁管理平台
+>>>>>>> 2cab9605dbe30142fa3986a81b026dad91f3b072
 
 #### Software Architecture
 Software architecture description
