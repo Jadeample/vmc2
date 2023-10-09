@@ -4,7 +4,7 @@ package com.amaker.entity;
  * 司机信息表;存储平台的所有司机信息
  * @date : 2023-10-7
  */
-public class diver {
+public class Diver {
 
     /** 司机id */
     private Integer did ;
@@ -33,10 +33,10 @@ public class diver {
     /** 司机状态;“0”为空闲中，“1”为工作中，“2”为请假中，“3”为已离职 */
     private Integer dstate ;
 
-    public diver() {
+    public Diver() {
     }
 
-    public diver(Integer did, String dname, String dpwd, String dphoto, Integer dsex, Double dprice, String drealname, String didcard, String dphone, String demail, Integer dlevel, Integer dlicense, Integer dstate) {
+    public Diver(Integer did, String dname, String dpwd, String dphoto, Integer dsex, Double dprice, String drealname, String didcard, String dphone, String demail, Integer dlevel, Integer dlicense, Integer dstate) {
         this.did = did;
         this.dname = dname;
         this.dpwd = dpwd;

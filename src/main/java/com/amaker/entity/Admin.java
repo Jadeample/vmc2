@@ -4,7 +4,7 @@ package com.amaker.entity;
  * 管理员表;用于存储管理员登陆系统所用的账号密码
  * @date : 2023-10-7
  */
-public class admin {
+public class Admin {
 
     /** 管理员id */
     private Integer aid ;
@@ -13,10 +13,10 @@ public class admin {
     /** 管理员密码 */
     private String apwd ;
 
-    public admin() {
+    public Admin() {
     }
 
-    public admin(Integer aid, String aname, String apwd) {
+    public Admin(Integer aid, String aname, String apwd) {
         this.aid = aid;
         this.aname = aname;
         this.apwd = apwd;

@@ -38,5 +38,4 @@ public class JdbcUtil {
             System.out.println(e);
         }
     }
-
 }

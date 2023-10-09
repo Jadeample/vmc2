@@ -6,7 +6,7 @@ import java.util.Date;
  * 订单信息表;存储平台的所有的订单信息
  * @date : 2023-10-7
  */
-public class lease {
+public class Lease {
 
     /** 订单号 */
     private Integer lid ;
@@ -29,10 +29,10 @@ public class lease {
     /** 订单状态;“0”为执行中，“1”为待支付，“2”已结束 */
     private Integer lstate ;
 
-    public lease() {
+    public Lease() {
     }
 
-    public lease(Integer lid, Integer userid, Integer cid, Integer did, Date lstart, Date lend, Double lprice, Integer levaluate, Integer lpay, Integer lstate) {
+    public Lease(Integer lid, Integer userid, Integer cid, Integer did, Date lstart, Date lend, Double lprice, Integer levaluate, Integer lpay, Integer lstate) {
         this.lid = lid;
         this.userid = userid;
         this.cid = cid;

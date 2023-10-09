@@ -4,7 +4,7 @@ package com.amaker.entity;
  * 车辆信息表;存储平台的所有车辆信息
  * @date : 2023-10-7
  */
-public class car {
+public class Car {
 
     /** 车辆id */
     private Integer cid ;
@@ -29,10 +29,10 @@ public class car {
     /** 车辆状态;“0”为空闲中，“1”为租赁中，“2”为维修中，“3”为已报废 */
     private Integer cstate ;
 
-    public car() {
+    public Car() {
     }
 
-    public car(Integer cid, String cnumber, String cbrand, String ccolor, String cphoto, Integer cseats, Double cprice, Integer cmodel, Integer cgear, Integer ctype, Integer cstate) {
+    public Car(Integer cid, String cnumber, String cbrand, String ccolor, String cphoto, Integer cseats, Double cprice, Integer cmodel, Integer cgear, Integer ctype, Integer cstate) {
         this.cid = cid;
         this.cnumber = cnumber;
         this.cbrand = cbrand;

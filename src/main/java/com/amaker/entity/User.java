@@ -4,7 +4,7 @@ package com.amaker.entity;
  * 用户信息表;存储平台的所有用户信息
  * @date : 2023-10-7
  */
-public class user {
+public class User {
 
     /** 用户id */
     private Integer userid ;
@@ -23,10 +23,10 @@ public class user {
     /** 用户邮箱 */
     private String uemail ;
 
-    public user() {
+    public User() {
     }
 
-    public user(Integer userid, String uname, String upwd, Integer usex, String urealname, String uidcard, String uphone, String uemail) {
+    public User(Integer userid, String uname, String upwd, Integer usex, String urealname, String uidcard, String uphone, String uemail) {
         this.userid = userid;
         this.uname = uname;
         this.upwd = upwd;
