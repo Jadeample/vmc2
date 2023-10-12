@@ -6,12 +6,14 @@ import com.amaker.service.impl.UserServiceImpl;
 import com.amaker.util.MyBeanUtils;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+@WebServlet(name = "UserServlet", value = "/user")
 public class UserServlet extends BaseServlet{
 
     UserService userService=new UserServiceImpl();

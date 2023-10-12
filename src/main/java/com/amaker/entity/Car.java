@@ -20,6 +20,8 @@ public class Car {
     private Integer cseats ;
     /** 车辆租赁价格 */
     private Double cprice ;
+    /** 车辆数量 */
+    private Integer cnum ;
     /** 车型;“0”为小轿车，“1”为SUV，“2”为越野车，“3”为跑车，“4”为货车，“5”为客车 */
     private Integer cmodel ;
     /** 车辆挡位类型;“0”为手动挡，“1”为自动挡 */
@@ -32,7 +34,7 @@ public class Car {
     public Car() {
     }
 
-    public Car(Integer cid, String cnumber, String cbrand, String ccolor, String cphoto, Integer cseats, Double cprice, Integer cmodel, Integer cgear, Integer ctype, Integer cstate) {
+    public Car(Integer cid, String cnumber, String cbrand, String ccolor, String cphoto, Integer cseats, Double cprice, Integer cnum, Integer cmodel, Integer cgear, Integer ctype, Integer cstate) {
         this.cid = cid;
         this.cnumber = cnumber;
         this.cbrand = cbrand;
@@ -40,6 +42,7 @@ public class Car {
         this.cphoto = cphoto;
         this.cseats = cseats;
         this.cprice = cprice;
+        this.cnum = cnum;
         this.cmodel = cmodel;
         this.cgear = cgear;
         this.ctype = ctype;
@@ -102,6 +105,14 @@ public class Car {
         this.cprice = cprice;
     }
 
+    public Integer getCnum() {
+        return cnum;
+    }
+
+    public void setCnum(Integer cnum) {
+        this.cnum = cnum;
+    }
+
     public Integer getCmodel() {
         return cmodel;
     }
@@ -136,7 +147,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "car{" +
+        return "Car{" +
                 "cid=" + cid +
                 ", cnumber='" + cnumber + '\'' +
                 ", cbrand='" + cbrand + '\'' +
@@ -144,6 +155,7 @@ public class Car {
                 ", cphoto='" + cphoto + '\'' +
                 ", cseats=" + cseats +
                 ", cprice=" + cprice +
+                ", cnum=" + cnum +
                 ", cmodel=" + cmodel +
                 ", cgear=" + cgear +
                 ", ctype=" + ctype +
