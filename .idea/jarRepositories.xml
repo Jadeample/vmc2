@@ -3,14 +3,11 @@
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
       <option name="id" value="central" />
-<<<<<<< HEAD
-=======
       <option name="name" value="Central Repository" />
-      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
->>>>>>> 2cab9605dbe30142fa3986a81b026dad91f3b072
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
@@ -19,13 +16,5 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
-<<<<<<< HEAD
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
-    </remote-repository>
-=======
->>>>>>> 2cab9605dbe30142fa3986a81b026dad91f3b072
   </component>
 </project>
