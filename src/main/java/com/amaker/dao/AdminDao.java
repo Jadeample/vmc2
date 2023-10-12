@@ -11,6 +11,4 @@ public class AdminDao extends BaseDao{
         String sql="select * from admin order by aid desc";
         return baseDao.getObjects(Admin.class, sql);
     }
-
-
 }

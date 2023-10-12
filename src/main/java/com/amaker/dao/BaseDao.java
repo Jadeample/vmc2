@@ -22,6 +22,7 @@ public class BaseDao {
      */
     public int update(String sql,Object...args){
         Connection connection = JdbcUtil.getConnection();
+
         try {
            return  queryRunner.update(connection,sql,args);
         } catch (SQLException e) {
@@ -41,7 +42,7 @@ public class BaseDao {
      */
     public <T> T getOneObject(Class<T> type ,String sql,Object...args){
         Connection connection = JdbcUtil.getConnection();
-        System.out.println(connection);
+
        try {
            return  queryRunner.query(connection,sql,new BeanHandler<T>(type),args);
        } catch (Exception e) {
@@ -90,5 +91,8 @@ public class BaseDao {
 
 }
 
-
+//    public static void main(String[] args) {
+//
+//        System.out.println(23323);
+//    }
 }
