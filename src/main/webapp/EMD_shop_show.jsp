@@ -74,24 +74,24 @@
 										</tr>
 									<c:forEach items="${list}" var="driver">
 										<tr>
-											<td>${driver.did}</td>
-											<td>${driver.dname}</td>
-											<td>${driver.dpwd}</td>
-											<td>${driver.dphoto}</td>
-											<td>${driver.dsex}</td>
-											<td>${driver.dprice}</td>
-											<td>${driver.drealname}</td>
-											<td>${driver.didcard}</td>
-											<td>${driver.dphone}</td>
-											<td>${driver.demail}</td>
-											<td>${driver.dlevel}</td>
-											<td>${driver.dlicense}</td>
-											<td>${driver.dstate}</td>
+											<td>${driver.diverid}</td>
+											<td>${driver.divername}</td>
+											<td>${driver.diverpwd}</td>
+											<td>${driver.diverphoto}</td>
+											<td>${driver.diversex}</td>
+											<td>${driver.diverprice}</td>
+											<td>${driver.diverrealname}</td>
+											<td>${driver.diveridcard}</td>
+											<td>${driver.diverphone}</td>
+
+											<td>${driver.diverlevel}</td>
+											<td>${driver.diverlicense}</td>
+											<td>${driver.diverstate}</td>
 											<td>
 												<div class="btn-group">
 													<a class="btn btn-xs btn-default" href="#!" title="编辑"
 													   data-toggle="tooltip"><i class="mdi mdi-pencil"></i></a>
-													<a class="btn btn-xs btn-default" href="driver?action=delete&did=${driver.did}" title="删除"
+													<a class="btn btn-xs btn-default" href="driver?action=delete&diverid=${driver.diverid}" title="删除"
 													   data-toggle="tooltip"><i class="mdi mdi-window-close"></i></a>
 												</div>
 											</td>

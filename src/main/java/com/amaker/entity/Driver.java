@@ -7,171 +7,161 @@ package com.amaker.entity;
 public class Driver {
 
     /** 司机id */
-    private Integer did ;
+    private Integer diverid ;
     /** 司机账号名 */
-    private String dname ;
+    private String divername ;
     /** 司机密码 */
-    private String dpwd ;
+    private String diverpwd ;
     /** 司机照片 */
-    private String dphoto ;
+    private String diverphoto ;
     /** 司机性别 */
-    private Integer dsex ;
+    private Integer diversex ;
     /** 司机价格 */
-    private Double dprice ;
+    private Double diverprice ;
     /** 司机真实姓名 */
-    private String drealname ;
+    private String diverrealname ;
     /** 司机身份证号 */
-    private String didcard ;
+    private String diveridcard ;
     /** 司机电话 */
-    private String dphone ;
+    private String diverphone ;
     /** 司机邮箱 */
-    private String demail ;
+
     /** 司机等级;司机每完成一个订单，用户可以评价，好评此项+3，不评价+1（默认），差评+0 */
-    private Integer dlevel ;
+    private Integer diverlevel ;
     /** 司机驾照类型;“0”为C1（手动挡和自动挡），“1”为C2（自动挡），“2”为B1（客车），“3”为B2（货车）， */
-    private Integer dlicense ;
+    private Integer diverlicense ;
     /** 司机状态;“0”为空闲中，“1”为工作中，“2”为请假中，“3”为已离职 */
-    private Integer dstate ;
+    private Integer diverstate ;
 
     public Driver() {
     }
 
-    public Driver(Integer did, String dname, String dpwd, String dphoto, Integer dsex, Double dprice, String drealname, String didcard, String dphone, String demail, Integer dlevel, Integer dlicense, Integer dstate) {
-        this.did = did;
-        this.dname = dname;
-        this.dpwd = dpwd;
-        this.dphoto = dphoto;
-        this.dsex = dsex;
-        this.dprice = dprice;
-        this.drealname = drealname;
-        this.didcard = didcard;
-        this.dphone = dphone;
-        this.demail = demail;
-        this.dlevel = dlevel;
-        this.dlicense = dlicense;
-        this.dstate = dstate;
+    public Driver(Integer diverid, String divername, String diverpwd, String diverphoto, Integer diversex, Double diverprice, String diverrealname, String diveridcard, String diverphone, Integer diverlevel, Integer diverlicense, Integer diverstate) {
+        this.diverid = diverid;
+        this.divername = divername;
+        this.diverpwd = diverpwd;
+        this.diverphoto = diverphoto;
+        this.diversex = diversex;
+        this.diverprice = diverprice;
+        this.diverrealname = diverrealname;
+        this.diveridcard = diveridcard;
+        this.diverphone = diverphone;
+        this.diverlevel = diverlevel;
+        this.diverlicense = diverlicense;
+        this.diverstate = diverstate;
     }
 
-    public Integer getDid() {
-        return did;
+    public Integer getDiverid() {
+        return diverid;
     }
 
-    public void setDid(Integer did) {
-        this.did = did;
+    public void setDiverid(Integer diverid) {
+        this.diverid = diverid;
     }
 
-    public String getDname() {
-        return dname;
+    public String getDivername() {
+        return divername;
     }
 
-    public void setDname(String dname) {
-        this.dname = dname;
+    public void setDivername(String divername) {
+        this.divername = divername;
     }
 
-    public String getDpwd() {
-        return dpwd;
+    public String getDiverpwd() {
+        return diverpwd;
     }
 
-    public void setDpwd(String dpwd) {
-        this.dpwd = dpwd;
+    public void setDiverpwd(String diverpwd) {
+        this.diverpwd = diverpwd;
     }
 
-    public String getDphoto() {
-        return dphoto;
+    public String getDiverphoto() {
+        return diverphoto;
     }
 
-    public void setDphoto(String dphoto) {
-        this.dphoto = dphoto;
+    public void setDiverphoto(String diverphoto) {
+        this.diverphoto = diverphoto;
     }
 
-    public Integer getDsex() {
-        return dsex;
+    public Integer getDiversex() {
+        return diversex;
     }
 
-    public void setDsex(Integer dsex) {
-        this.dsex = dsex;
+    public void setDiversex(Integer diversex) {
+        this.diversex = diversex;
     }
 
-    public Double getDprice() {
-        return dprice;
+    public Double getDiverprice() {
+        return diverprice;
     }
 
-    public void setDprice(Double dprice) {
-        this.dprice = dprice;
+    public void setDiverprice(Double diverprice) {
+        this.diverprice = diverprice;
     }
 
-    public String getDrealname() {
-        return drealname;
+    public String getDiverrealname() {
+        return diverrealname;
     }
 
-    public void setDrealname(String drealname) {
-        this.drealname = drealname;
+    public void setDiverrealname(String diverrealname) {
+        this.diverrealname = diverrealname;
     }
 
-    public String getDidcard() {
-        return didcard;
+    public String getDiveridcard() {
+        return diveridcard;
     }
 
-    public void setDidcard(String didcard) {
-        this.didcard = didcard;
+    public void setDiveridcard(String diveridcard) {
+        this.diveridcard = diveridcard;
     }
 
-    public String getDphone() {
-        return dphone;
+    public String getDiverphone() {
+        return diverphone;
     }
 
-    public void setDphone(String dphone) {
-        this.dphone = dphone;
+    public void setDiverphone(String diverphone) {
+        this.diverphone = diverphone;
     }
 
-    public String getDemail() {
-        return demail;
+    public Integer getDiverlevel() {
+        return diverlevel;
     }
 
-    public void setDemail(String demail) {
-        this.demail = demail;
+    public void setDiverlevel(Integer diverlevel) {
+        this.diverlevel = diverlevel;
     }
 
-    public Integer getDlevel() {
-        return dlevel;
+    public Integer getDiverlicense() {
+        return diverlicense;
     }
 
-    public void setDlevel(Integer dlevel) {
-        this.dlevel = dlevel;
+    public void setDiverlicense(Integer diverlicense) {
+        this.diverlicense = diverlicense;
     }
 
-    public Integer getDlicense() {
-        return dlicense;
+    public Integer getDiverstate() {
+        return diverstate;
     }
 
-    public void setDlicense(Integer dlicense) {
-        this.dlicense = dlicense;
-    }
-
-    public Integer getDstate() {
-        return dstate;
-    }
-
-    public void setDstate(Integer dstate) {
-        this.dstate = dstate;
+    public void setDiverstate(Integer diverstate) {
+        this.diverstate = diverstate;
     }
 
     @Override
     public String toString() {
-        return "diver{" +
-                "did=" + did +
-                ", dname='" + dname + '\'' +
-                ", dpwd='" + dpwd + '\'' +
-                ", dphoto='" + dphoto + '\'' +
-                ", dsex=" + dsex +
-                ", dprice=" + dprice +
-                ", drealname='" + drealname + '\'' +
-                ", didcard='" + didcard + '\'' +
-                ", dphone='" + dphone + '\'' +
-                ", demail='" + demail + '\'' +
-                ", dlevel=" + dlevel +
-                ", dlicense=" + dlicense +
-                ", dstate=" + dstate +
+        return "Driver{" +
+                "diverid=" + diverid +
+                ", divername='" + divername + '\'' +
+                ", diverpwd='" + diverpwd + '\'' +
+                ", diverphoto='" + diverphoto + '\'' +
+                ", diversex=" + diversex +
+                ", diverprice=" + diverprice +
+                ", diverrealname='" + diverrealname + '\'' +
+                ", diveridcard='" + diveridcard + '\'' +
+                ", diverphone='" + diverphone + '\'' +
+                ", diverlevel=" + diverlevel +
+                ", diverlicense=" + diverlicense +
+                ", diverstate=" + diverstate +
                 '}';
     }
 }

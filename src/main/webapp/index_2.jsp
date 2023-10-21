@@ -54,7 +54,7 @@
             <li class="nav-item nav-item-has-subnav">
               <a href="javascript:void(0)"><i class="mdi mdi-shopping"></i> <span>司机信息</span></a>
               <ul class="nav nav-subnav">
-                <li> <a class="multitabs" href="./DriverServlet">浏览司机</a> </li>
+                <li> <a class="multitabs" href="driver?action=find">浏览司机</a> </li>
                 <li> <a class="multitabs" href="EMD_shop_add.jsp">添加司机</a> </li>
               </ul>
             </li>
