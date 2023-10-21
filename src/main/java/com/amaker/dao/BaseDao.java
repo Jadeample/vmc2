@@ -81,7 +81,7 @@ public class BaseDao {
  public  Number getScalarValue(String sql,Object...args){
         Connection connection = JdbcUtil.getConnection();
     try {
-        System.out.println(connection);
+        System.out.println(1234);
         return  (Number)queryRunner.query(connection, sql, new ScalarHandler(), args);
     } catch (Exception e) {
         e.printStackTrace();
