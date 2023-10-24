@@ -21,7 +21,7 @@ public class DiverServlet extends BaseServlet {
     protected void find(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Driver> drivers = driverService.find();
         request.setAttribute("list",drivers);
-        System.out.println("Test github__________------------");
+        System.out.println("Test github________________________------------");
         request.getRequestDispatcher("EMD_shop_show.jsp").forward(request, response);
     }
     protected void add(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
